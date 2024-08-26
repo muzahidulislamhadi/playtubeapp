@@ -7,6 +7,6 @@ spec:
       git:
         branch: main
         repo_clone_url: https://github.com/muzahidulislamhadi/playtubeapp.git
-      source_dir: PlayTube_V3.1.1/PlayTube
+      source_dir: playtubeapp/PlayTube
       build_command: "dotnet publish -c Release"
       run_command: "dotnet PlayTube.dll"
