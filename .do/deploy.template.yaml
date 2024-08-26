@@ -1,0 +1,12 @@
+spec:
+  name: playtubeapp
+  services:
+    - name: playtube
+      environment_slug: dotnet
+      instance_size_slug: basic-xxs
+      git:
+        branch: main
+        repo_clone_url: https://github.com/muzahidulislamhadi/playtubeapp.git
+      source_dir: PlayTube
+      build_command: "dotnet publish -c Release"
+      run_command: "dotnet PlayTube.dll"
